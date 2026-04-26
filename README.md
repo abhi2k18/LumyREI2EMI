@@ -1,3 +1,7 @@
+### WIP ###
+Planning to support same with EMI only.
+
+
 ![LumyREI - Banner](https://cdn.modrinth.com/data/cached_images/65fabdeccbfd7e80e4b99f98f3706adf7fedc9e8.png)
 ### LumyREI: Cobblemon recipes integrated with REI
 
