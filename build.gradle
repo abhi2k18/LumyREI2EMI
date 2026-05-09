@@ -47,6 +47,11 @@ repositories {
         name "Cobblemon"
         url "https://maven.impactdev.net/repository/development/"
     }
+	
+	maven {
+		name = "TerraformersMC"
+		url = "https://maven.terraformersmc.com/"
+	}
 }
 
 dependencies {
