@@ -1,4 +1,4 @@
-package com.lumyverse.lumyrei;
+package com.lumyverse.lumyemi;
 
 import com.cobblemon.mod.common.item.crafting.brewingstand.BrewingStandRecipe;
 import me.shedaniel.rei.api.common.category.CategoryIdentifier;

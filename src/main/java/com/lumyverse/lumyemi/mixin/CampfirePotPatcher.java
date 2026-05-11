@@ -1,4 +1,4 @@
-package com.lumyverse.lumyrei.mixin;
+package com.lumyverse.lumyemi.mixin;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;

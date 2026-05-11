@@ -21,7 +21,7 @@ def getSequentialModVersion() {
         buildNumberFile.write("0")
     }
 
-    currentBuildNumber++
+    //currentBuildNumber++
 
     buildNumberFile.write(currentBuildNumber.toString())
 
@@ -52,6 +52,14 @@ repositories {
 		name = "TerraformersMC"
 		url = "https://maven.terraformersmc.com/"
 	}
+    maven {
+        name = "ImpactDev"
+        url = "https://maven.impactdev.net/repository/development/"
+    }
+    // Often LumyMon assets are also found here if ImpactDev is down
+    maven {
+        url = "https://jitpack.io"
+    }
 }
 
 dependencies {
@@ -65,6 +73,10 @@ dependencies {
     modImplementation "net.fabricmc:fabric-language-kotlin:1.13.3+kotlin.2.1.21"
     modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:16.0.799"
     modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:16.0.799"
+    
+    modCompileOnly "dev.emi:emi-fabric:${project.emi_version}:"
+	modLocalRuntime "dev.emi:emi-fabric:${project.emi_version}"
+    //modCompileOnly "com.lumymon:stark-forging-fabric:0.6.5"
 }
 
 processResources {

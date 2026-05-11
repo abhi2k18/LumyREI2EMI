@@ -1,25 +1,21 @@
 {
 	"schemaVersion": 1,
-	"id": "lumyrei",
+	"id": "lumyemi",
 	"version": "${version}",
-	"name": "LumyREI",
-	"description": "REI integration for Cobblemon (Cooking Pot & Brewing Stand) and Stark Forge recipes.",
+	"name": "LumyEMI",
+	"description": "EMI integration for Cobblemon (Cooking Pot) recipes.",
 	"authors": [
-		"LUMYVERSE"
+		"Abhi2k18"
 	],
 	"contact": {
-		"homepage": "https://www.lumyverse.com",
-		"issues": "https://discord.lumy.fun"
+		
 	},
 	"license": "GPL-3.0",
-	"icon": "assets/lumyrei/icon.png",
+	"icon": "assets/lumyemi/icon.png",
 	"environment": "client",
-	"mixins": [
-		"lumyrei.mixins.json"
-	],
 	"entrypoints": {
-		"rei_client": [
-			"com.lumyverse.lumyrei.LumyREI"
+		"emi": [
+			"com.lumyverse.lumyemi.LumyEMI"
 		]
 	},
 	"depends": {
@@ -27,19 +23,12 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
-		"cobblemon": ">=1.7.1"
+		"cobblemon": ">=1.7.1",
+		"emi": "*"
 	},
-    "recommends": {
-        "roughlyenoughitems": "*"
-    },
 	"custom": {
 		"modmenu": {
 			"links": {
-				"modmenu.curseforge": "https://www.curseforge.com/minecraft/modpacks/cobbleverse-cobblemon",
-				"modmenu.modrinth": "https://modrinth.com/modpack/cobbleverse",
-				"modmenu.discord": "https://discord.lumy.fun",
-				"modmenu.donate": "https://streamlabs.com/lumyverse",
-				"modmenu.wiki": "https://www.lumyverse.com/cobbleverse"
 			}
 		}
 	}

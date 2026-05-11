@@ -1,4 +1,4 @@
-package com.lumyverse.lumyrei;
+package com.lumyverse.lumyemi;
 
 import me.shedaniel.math.Point;
 import me.shedaniel.math.Rectangle;
